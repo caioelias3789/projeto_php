@@ -19,7 +19,14 @@
             <nav class="nav-links">
                 <a href="../php/pag_inicial.php">Início</a>
                 <a href="../php/institucional.php">Institucional</a>
-                <a href="../php/produtos.php">Produtos</a>
+                <div class="dropdown" id="produtos-dropdown-wrapper">
+                    <a href="../php/produtos.php" class="dropbtn">Produtos</a>
+                    <div class="dropdown-content" id="produtos-dropdown-content">
+                        <a href="../php/cidadao.php">Cidadão</a>
+                        <a href="../php/estudante.php">Estudante</a>
+                        <a href="../php/valetransporte.php">Vale Transporte</a>
+                    </div>
+                </div>
                 <a href="../php/recargas.php">Recarga</a>
                 <a href="../php/perguntas.php">Perguntas</a>
             </nav>
@@ -177,6 +184,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="../js/produtos.js"></script>
 
 </body>
 
