@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../media/logo_aba.png">
+    <title>NuBus JP</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="../php/pag_inicial.php"><img src="../media/nubus.png" width="142" height="45" class="logo" alt="logo"> </a>
+            <nav class="nav-links">
+                <a href="../php/pag_inicial.php">Início</a>
+                <a href="../php/institucional.php">Institucional</a>
+                <a href="../php/produtos.php">Produtos</a>
+                <a href="../php/recargas.php">Recargas</a>
+                <a href="../php/perguntas.php">Perguntas</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container_texto">
+
+        <section class="titulo">
+            <h1>Contato</h1>
+        </section>
+
+        <section class="texto">
+            <p>
+                Rua: 13 de Maio, 103 – Centro – João Pessoa – PB
+                <br>
+                Telefone: (83) 3221 9092
+            </p>
+            <br>
+            <form action="">
+                Nome:
+                <br>
+                <input type="text" placeholder="Digite seu nome aqui." class="box-normal">
+                <br>
+                <br>
+                E-mail:
+                <br>
+                <input type="text" placeholder="Digite seu e-mail aqui." class="box-normal">
+                <br>
+                <br>
+                Mensagem:
+                <br>
+                <input type="text" placeholder="Digite sua mensagem aqui." class="box-mensagem">
+                <br>
+                <br>
+                <button type="submit" class="btn-enviar">ENVIAR</button>
+            </form>
+            
+        </section>
+
+    </section>
+
+
+    <footer>
+        <div class="footer-principal">
+            <div class="container footer-grid">
+                <div class="coluna logo-contato">
+                    <div class="logo-info-wrapper">
+                        <img src="../media/logo3.png" alt="NuBus Logo Footer" class="logo-grande-footer">
+                        <div class="info-contato-texto">
+                            <p class="contato-titulo">NUBUS</p>
+                            <p><a href="cidadao.php">Cidadão</a></p>
+                            <p><a href="estudante.php">Estudante</a></p>
+                            <p><a href="valetransporte.php">Vale Transporte</a></p>
+                            <p><a href="aplicativo.php">Baixar APP</a></p>
+                            <div class="endereco">
+                                <p>Rua Treze de Maio, 103 - Centro</p>
+                                <p>João Pessoa - PB CEP 58013-070</p>
+                                <p>(83) 3221-9092</p>
+                                <p>contato@nubusjpa.com.br</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coluna links-servicos">
+                    <p class="titulo-coluna">SERVIÇOS</p>
+                    <ul>
+                        <li><a href="solicitar_cartao.php">Solicitar Cartões</a></li>
+                        <li><a href="perdaeroubo.php">Perda/Roubo</a></li>
+                        <li><a href="baixa_app.php">Baixar APP</a></li>
+                    </ul>
+                </div>
+
+                <div class="coluna links-informacoes">
+                    <p class="titulo-coluna">INFORMAÇÕES</p>
+                    <ul>
+                        <li><a href="duvidas.php">Dúvidas</a></li>
+                        <li><a href="rdv.php">RDV - Recibos</a></li>
+                        <li><a href="privacidade.php">Privacidade dos Dados Pessoais</a></li>
+                    </ul>
+                </div>
+                <div class="coluna logo-sindicato">
+                    <p class="titulo-coluna">SITE SINDICATO</p>
+                    <a href="https://sinturjp.com.br/" class="logo-sindicato-link">
+                        <img src="../media/sinturlogo.png" alt="Sintur Logo" width="60" height="60">
+                    </a>
+                    <div class="redes-sociais">
+                        <a href="https://www.youtube.com/@NuBussindicato"><img src="../media/youtube.png" alt="YouTube"
+                                width="24"></a>
+                        <a href="https://www.tiktok.com/@nubusindicatos?_t=ZM-8yT2wgaiHRO&_r=1"><img
+                                src="../media/tiktok.png" alt="TikTok" width="24"></a>
+                        <a href="https://www.linkedin.com/company/nubusoficial/"><img src="../media/linkedin.png"
+                                alt="LinkedIn" width="24"></a>
+                        <a href="https://www.instagram.com/nubus.jp?igsh=bGd0bGJsaGJ1aWRn"><img
+                                src="../media/instagram.png" alt="Instagram" width="24"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61564190423566&mibextid=ZbWKwL"><img
+                                src="../media/facebook.png" alt="Facebook" width="24"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-direitos">
+            <div class="container footer-copyright">
+                <p>Política de Privacidade</p>
+                <p>Desenvolvido por Caio Elias baseado no feito por MKT Fora de Série</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="icon" type="image/png" href="../media/logo_aba.png">
+  <title>Login NuBus JP</title>
+</head>
+<body>
+  <div class="container">
+    <form id="formLogin">
+      <a href="../php/pag_inicial.php">
+        <img src="../media/nubus.png" alt="logo" width="100px">
+      </a>
+      <h1>Login NuBus</h1>
+
+      <div id="usuario">
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="E-mail" required>
+      </div>
+
+      <div id="senha">
+        <label for="senha">Senha</label>
+        <input id="senha" name="senha" type="password" placeholder="Senha" minlength="8" required>
+      </div>
+
+      <div id="remember">
+        <label>
+          <input type="checkbox" name="remember">
+          Lembrar de mim
+        </label>
+        <a href="recuperar.html">Esqueci a minha senha</a>
+      </div>
+
+      <div id="botao">
+        <button type="submit">Login</button>
+        <p>Não tem uma conta? <a href="../php/cadastro.php"><b>Cadastre-se</b></a></p>
+        <p>Voltar à página <a href="../php/pag_inicial.php"><b>Inicial</b></a></p>
+      </div>
+
+      <!-- MENSAGEM APARECE AQUI -->
+      <div id="mensagem"></div>
+      
+    </form>
+  </div>
+
+  
+
+  <script src="../js/login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cidadao.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../media/logo_aba.png">
+    <title>NuBus JP</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <a href="../php/pag_inicial.php"><img src="../media/nubus.png" width="142" height="45" class="logo" alt="logo"> </a>
+            <nav class="nav-links">
+                <a href="../php/pag_inicial.php">Início</a>
+                <a href="../php/institucional.php">Institucional</a>
+                <a href="../php/produtos.php">Produtos</a>
+                <a href="../php/recargas.php">Recargas</a>
+                <a href="../php/perguntas.php">Perguntas</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main class="container_texto">
+
+        <section class="cartao_cidadao">
+            <h1>Vale Transporte</h1>
+        </section>
+        
+        <section class="texto">
+            <p>
+                Destinado às empresas jurídicas beneficiadas pela Lei nº 7619/87, que
+                oferecem aos seus colaboradores vantagens nas passagens diárias, o Cartão
+                Nubus Vale Transporte é um facilitador fundamental para o transporte público.
+            </p>
+
+            <h2>Como adquirir o cartão NuBus Vale Transporte?</h2>
+
+            <p>
+                Para solicitar esse serviço, realize o cadastro da sua empresa enviando os seguintes dados para o e-mail: cadastro@nubusjp.com.br:
+            </p>
+
+            <ul>
+                <li>Cartão CNPJ</li>
+                <li>Resposável</li>
+                <li>Email de contato</li>
+            </ul>
+
+            <p>
+                Para cadastrar o funcionário, envie junto aos dados da empresa os seguintes dados de seus colaboradores:
+            </p>
+
+            <ul>
+                <li>Nome</li>
+                <li>Data de Nascimento</li>
+                <li>CPF</li>
+                <li>Identidade</li>
+            </ul>
+
+            <p>
+                Após a conclusão do cadastro, o SINTUR providenciará a produção e
+                entrega dos cartões Vale Transporte. Além disso, será fornecido um login e
+                senha para a realização de recargas online.
+            </p>
+
+            <h2>Como funciona?</h2>
+
+            <p>
+                Aproxime o cartão do Validador no interior do ônibus para que a conexão
+                entre o aparelho e o cartão seja estabelecida. Conforme os créditos
+                estiverem disponíveis, a catraca será liberada, permitindo o acesso ao
+                veículo.
+                <br>
+                Ao passar pela catraca, o crédito é descontado do cartão, e o validador
+                exibe em sua tela o saldo restante.
+            </p>
+
+            <h2>Recarga</h2>
+
+            <p>
+                A empresa cadastrada no SINTUR é responsável por recarregar os cartões de seus funcionários por meio do nosso site ou presencialmente.
+                <br>
+                Em até 48 horas após a confirmação do pagamento das recargas, os validadores dos ônibus receberão as informações das recargas.
+                <br>
+                Quando o usuário passar o cartão pelo validador, a recarga será aplicada, permitindo que ele aproveite os benefícios.
+            </p>
+        </section>
+    </main>
+
+    <section class="img_cartao">
+
+        <img src="../media/cartao03.jpg" alt="">
+
+    </section>
+
+
+    <footer>
+        <div class="footer-principal">
+            <div class="container footer-grid">
+                <div class="coluna logo-contato">
+                    <div class="logo-info-wrapper">
+                        <img src="../media/logo3.png" alt="NuBus Logo Footer" class="logo-grande-footer">
+                        <div class="info-contato-texto">
+                            <p class="contato-titulo">NUBUS</p>
+                            <p><a href="cidadao.php">Cidadão</a></p>
+                            <p><a href="estudante.php">Estudante</a></p>
+                            <p><a href="valetransporte.php">Vale Transporte</a></p>
+                            <p><a href="aplicativo.php">Baixar APP</a></p>
+                            <div class="endereco">
+                                <p>Rua Treze de Maio, 103 - Centro</p>
+                                <p>João Pessoa - PB CEP 58013-070</p>
+                                <p>(83) 3221-9092</p>
+                                <p>contato@nubusjpa.com.br</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coluna links-servicos">
+                    <p class="titulo-coluna">SERVIÇOS</p>
+                    <ul>
+                        <li><a href="solicitar_cartao.php">Solicitar Cartões</a></li>
+                        <li><a href="perdaeroubo.php">Perda/Roubo</a></li>
+                        <li><a href="baixa_app.php">Baixar APP</a></li>
+                    </ul>
+                </div>
+
+                <div class="coluna links-informacoes">
+                    <p class="titulo-coluna">INFORMAÇÕES</p>
+                    <ul>
+                        <li><a href="duvidas.php">Dúvidas</a></li>
+                        <li><a href="https://rdv.nubusjp.com.br/recibo/recibos.aspx">RDV - Recibos</a></li>
+                    </ul>
+                </div>
+
+                <div class="coluna logo-sindicato">
+                    <p class="titulo-coluna">SITE SINDICATO</p>
+                    <a href="https://sinturjp.com.br/" class="logo-sindicato-link">
+                        <img src="../media/sinturlogo.png" alt="Sintur Logo" width="60" height="60">
+                    </a>
+                    <div class="redes-sociais">
+                        <a href="https://www.youtube.com/@NuBussindicato"><img src="../media/youtube.png" alt="YouTube"
+                                width="24"></a>
+                        <a href="https://www.tiktok.com/@nubusindicatos?_t=ZM-8yT2wgaiHRO&_r=1"><img
+                                src="../media/tiktok.png" alt="TikTok" width="24"></a>
+                        <a href="https://www.linkedin.com/company/nubusoficial/"><img src="../media/linkedin.png"
+                                alt="LinkedIn" width="24"></a>
+                        <a href="https://www.instagram.com/nubus.jp?igsh=bGd0bGJsaGJ1aWRn"><img
+                                src="../media/instagram.png" alt="Instagram" width="24"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61564190423566&mibextid=ZbWKwL"><img
+                                src="../media/facebook.png" alt="Facebook" width="24"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-direitos">
+            <div class="container footer-copyright">
+                <p>Política de Privacidade</p>
+                <p>Desenvolvido por Caio Elias baseado no feito por MKT Fora de Série</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

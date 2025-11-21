@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recarga.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../media/logo_aba.png">
+    <title>NuBus JP</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="../php/pag_inicial.php"><img src="../media/nubus.png" width="142" height="45" class="logo" alt="logo"> </a>
+            <nav class="nav-links">
+                <a href="../php/cadastro.php" class="cadastro"><b>CADASTRAR</b></a>
+                <a href="../php/login.php" class="cadastro"><b>ENTRAR</b></a>
+                <a href="https://download-android.appnubus.com.br/"><img src="../media/baixar_android.png" alt="" class="img_android"></a>
+                <a href="https://download-ios.appnubus.com.br/"><img src="../media/baixar_apple.png" alt="" class="img_apple"></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container-texto">
+ 
+        <section class="texto">
+            <h1>Agora ficou mais fácil recarregar o seu cartão de ônibus</h1>
+            <p>Faça a recarga do seu Cartão Cidadão ou Cartão Estudante de maneira simples, rápida e segura.</p>
+            <a href="../php/login.php" class="recarga_botao">RECARREGUE AQUI</a>
+        </section>
+
+    
+        
+        <section class="img_recarga">
+            <img src="../media/ilustracao_1.png" alt="">
+        </section>
+    </section>
+
+
+    <footer>
+        <div class="footer-principal">
+            <div class="container footer-grid">
+                <div class="coluna logo-contato">
+                    <div class="logo-info-wrapper">
+                        <img src="../media/logo3.png" alt="NuBus Logo Footer" class="logo-grande-footer">
+                        <div class="info-contato-texto">
+                            <p class="contato-titulo">NUBUS</p>
+                            <p><a href="cidadao.php">Cidadão</a></p>
+                            <p><a href="estudante.php">Estudante</a></p>
+                            <p><a href="valetransporte.php">Vale Transporte</a></p>
+                            <p><a href="aplicativo.php">Baixar APP</a></p>
+                            <div class="endereco">
+                                <p>Rua Treze de Maio, 103 - Centro</p>
+                                <p>João Pessoa - PB CEP 58013-070</p>
+                                <p>(83) 3221-9092</p>
+                                <p>contato@nubusjpa.com.br</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coluna links-servicos">
+                    <p class="titulo-coluna">SERVIÇOS</p>
+                    <ul>
+                        <li><a href="solicitar_cartao.php">Solicitar Cartões</a></li>
+                        <li><a href="perdaeroubo.php">Perda/Roubo</a></li>
+                        <li><a href="baixa_app.php">Baixar APP</a></li>
+                    </ul>
+                </div>
+
+                <div class="coluna links-informacoes">
+                    <p class="titulo-coluna">INFORMAÇÕES</p>
+                    <ul>
+                        <li><a href="duvidas.php">Dúvidas</a></li>
+                        <li><a href="rdv.php">RDV - Recibos</a></li>
+                        <li><a href="privacidade.php">Privacidade dos Dados Pessoais</a></li>
+                    </ul>
+                </div>
+                <div class="coluna logo-sindicato">
+                    <p class="titulo-coluna">SITE SINDICATO</p>
+                    <a href="https://sinturjp.com.br/" class="logo-sindicato-link">
+                        <img src="../media/sinturlogo.png" alt="Sintur Logo" width="60" height="60">
+                    </a>
+                    <div class="redes-sociais">
+                        <a href="https://www.youtube.com/@NuBussindicato"><img src="../media/youtube.png" alt="YouTube"
+                                width="24"></a>
+                        <a href="https://www.tiktok.com/@nubusindicatos?_t=ZM-8yT2wgaiHRO&_r=1"><img
+                                src="../media/tiktok.png" alt="TikTok" width="24"></a>
+                        <a href="https://www.linkedin.com/company/nubusoficial/"><img src="../media/linkedin.png"
+                                alt="LinkedIn" width="24"></a>
+                        <a href="https://www.instagram.com/nubus.jp?igsh=bGd0bGJsaGJ1aWRn"><img
+                                src="../media/instagram.png" alt="Instagram" width="24"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61564190423566&mibextid=ZbWKwL"><img
+                                src="../media/facebook.png" alt="Facebook" width="24"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-direitos">
+            <div class="container footer-copyright">
+                <p>Política de Privacidade</p>
+                <p>Desenvolvido por Caio Elias baseado no feito por MKT Fora de Série</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+:root {
+   --azulescuro: #003366;
+    --verde: #28a745;
+    --azul-footer: #1C4E9C; 
+    --cinza-direitos: #333333; 
+    --branco-texto: #FAFAFA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2 linear;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.header{
+    color: #808080;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: #FAFAFA;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: #333333;
+}
+
+.header-content a{
+    color: #808080;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.logo {
+    flex-shrink: 0;
+    margin-left: 25px;
+    flex-grow: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.nav-links a:hover {
+    color: var(--verde);
+}
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.container_recarga{
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 60%;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.container_recarga h1{
+    color: var(--azulescuro);
+}
+
+.container_recarga h2{
+    color: #13578b;
+}
+
+a{
+    color: #3993D6;
+}
+
+footer {
+    background-color: var(--azul-footer);
+    color: var(--branco-texto);
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.footer-principal {
+    padding: 50px 0;
+}
+
+.footer-principal .footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-principal .coluna {
+    min-width: 150px; 
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.footer-principal .logo-contato {
+    min-width: 250px;
+    flex-basis: 30%; 
+    text-align: left; 
+}
+
+.logo-info-wrapper {
+    display: flex; 
+    align-items: center;
+    text-align: left;
+}
+
+.logo-grande-footer {
+    width: 100px;
+    height: auto; 
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.footer-principal .logo-contato img {
+    width: 150px; 
+    height: auto; 
+    margin-bottom: 5px;
+}
+
+.footer-principal .tipos-cartao p {
+    text-align: left;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.footer-principal .coluna p,
+.footer-principal .coluna ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+}
+
+.footer-principal .coluna a {
+    color: var(--branco-texto);
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-principal .coluna a:hover {
+    color: #1ea34a;
+    opacity: 1;
+}
+
+.footer-direitos {
+ background-color: var(--cinza-direitos);
+ padding: 15px 0;
+ margin: 0;
+ font-size: 13px;
+}
+
+.footer-direitos .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #aaaaaa;
+}
+
+.footer-direitos .footer-copyright p {
+    margin: 0;
+}
+
+.titulo-coluna {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #808080; 
+}
+
+.contato-titulo {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.endereco p {
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+.logo-sindicato-link {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.redes-sociais a {
+    margin-right: 15px;
+}
+.redes-sociais img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+
+.footer-direitos {
+    background-color: var(--cinza-direitos);
+    padding: 15px 20px;
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-direitos .footer-copyright {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #aaaaaa;
+}
