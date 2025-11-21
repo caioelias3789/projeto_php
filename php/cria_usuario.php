@@ -20,8 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $pdo->prepare($query);
  
         $stmt->execute([$nome, $sobrenome, $email, $senha_hash]); 
-
-        // 6. Resposta de sucesso
+        
         echo "Usuário **cadastrado** com sucesso!";
 
     } catch (\PDOException $e) {

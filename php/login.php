@@ -37,8 +37,7 @@
         <p>Não tem uma conta? <a href="../php/cadastro.php"><b>Cadastre-se</b></a></p>
         <p>Voltar à página <a href="../php/pag_inicial.php"><b>Inicial</b></a></p>
       </div>
-
-      <!-- MENSAGEM APARECE AQUI -->
+      
       <div id="mensagem"></div>
       
     </form>
